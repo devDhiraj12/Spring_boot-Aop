@@ -9,8 +9,6 @@ import java.sql.SQLOutput;
 @Service
 public class Aopimpl implements Myinterface {
 
-
-
     @Override
     public String testAop() {
         return "hello Aop";

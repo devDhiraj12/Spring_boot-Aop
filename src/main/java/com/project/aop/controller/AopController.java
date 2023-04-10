@@ -13,6 +13,6 @@ public class AopController {
 
     @GetMapping("/testaop")
     public String checkAop(){
-      return   myinterface.testAop();
+      return myinterface.testAop();
     }
 }
